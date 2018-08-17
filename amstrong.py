@@ -1,7 +1,7 @@
-n,m=input().split()
-n,m=int(n),int(m)
+a,m=input().split()
+a,m=int(a),int(m)
 list=[]
-for i in range(n+1,m):
+for i in range(a+1,m):
     temp=i
     sum=0
     while(i>0):
