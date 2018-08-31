@@ -1,10 +1,10 @@
-nm=int(input())
-if(nm<=1000):
+n=int(input())
+if(n<=1000):
     storage= input()
     storage = [int(x) for x in storage.split()]
-    kk=sorted(storage[0:nm])
-for i in range(0,nm):
-    if(i<nm-1):
+    kk=sorted(storage[0:n])
+for i in range(0,n):
+    if(i<n-1):
         f=' '
     else:
         f=''
