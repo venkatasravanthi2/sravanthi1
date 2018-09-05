@@ -1,5 +1,5 @@
-hr,mn=input().split()
-temp=hr
-hr=mn
+sk,mn=input().split()
+temp=sk
+sk=mn
 mn=temp
-print(hr,mn)
+print(sk,mn)
